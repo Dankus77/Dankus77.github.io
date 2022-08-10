@@ -1,31 +1,27 @@
 html{
-    width: 95%;
-    height: 2200px;
+    max-width: 100%;
+    height: 100%;
+    
 }
 main{
-    width: 95%;
-    height: 2200px;
+    max-width: 100%;
+    height: 1800px;
 }
 body{
-
-    width: 90%;
-    height: 2200px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #FAF8F6;
+    font-family: Epilogue;
+    max-width: 100%;
     width: 100%;
-    height: 100%;
-    padding: 0;
+    min-height: 100%;
     overflow-x: hidden;
-
 }
 .Main-container{
-    width: 1330px;
-    height: 2200px;
-    font-family: Epilogue;
+    max-width: 100%;
+    height: 1800px;
 }
 .Logo{
     position: relative;
-    right: -100px;
+    right: -110px;
     top: 50px;
     width: 78.41px;
     height: 24.8px;
@@ -34,7 +30,7 @@ body{
 .Hero-portrait{
     position: relative;
     top: -300px;
-    right: -150px;
+    right: -260px;
     z-index: 1;
     width: 350px;
     height: 600px;
@@ -44,21 +40,24 @@ body{
     width: 287px;
     height: 36px;
     position: relative;
-    top: 170px;
-    right: -250px;
+    top: 120px;
+    right: -390px;
     z-index: 2;
 }
-h1{
+#Header{
+    color: rgb(23,35,57);
+    font-family: Epilogue;
     width: 635px;
     height: 156px;
-    font-size: 50px;
+    font-size: 72px;
     position: relative;
     top: 150px;
-    right: -100px;
+    right: -95px;
     z-index: 3;
 }
 h2{
 font-size: 48px;
+color: rgb(32,42,68);
 }
 #companies{
 padding: 1em;
@@ -74,44 +73,65 @@ line-height: 0.5em;
 }
 #company{
 text-transform: uppercase;
+color: gray;
 }
 #language{
     text-transform: uppercase;
+    color: gray;
 }
 #lead{
     text-transform: uppercase;
+    color: gray;
 }
 .Access1{
     position: relative;
-    right: -600px;
+    right: -630px;
     top: 10px;
     width: 256px;
     height: 61px;
 }
 .Button1{
+    font-family: Epilogue;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
     position: relative;
     right: -340px;
     width: 256px;
     height: 61px;
     color: black;
     background-color:white;
+    border-radius: 5px;
 }
-
+.Button1:hover{
+    border-style: hidden;
+background-color: #020230;
+color: white;
+}
 .Button2{
+    font-family: Epilogue;
+    font-size: 16px;
+    font-weight: bold;
     position: relative;
     right: 53px;
     width: 256px;
     height: 61px;
     color: white;
     background-color: #020230;
+    border-radius: 5px;
 }
-
+.Button2:hover{
+    border-style: hidden;
+    cursor: pointer;
+    background: linear-gradient(165deg, rgb(251,100,209), rgb(160,96,255), rgb(255,163,78));
+}
 .Hero-text{
+    color: gray;
     padding: 25px 20px;
     max-width: 350px;
     height: 96px;
     position: relative;
-    top: 100px;
+    top: 150px;
     right: -80px;
     line-height: 2em;
 }
@@ -125,13 +145,13 @@ text-transform: uppercase;
     margin: 25px 20px;
     padding: 10px;
     position: relative;
-    top: -450px;
+    top: -400px;
     right: -120px;
 }
 aside{
     position: relative;
-    bottom: 900px;
-    left: 390px;
+    bottom: 850px;
+    left: 480px;
     width: 20%;
     margin: auto;
     
@@ -145,12 +165,12 @@ ul{
     width: 359.81px;
     height: 589.56px;
     left: 160px;
-    top: -291px;
+    top: -585px;
     z-index: 7;
 }
 .Pattern-blur{
     position: relative;
-    top: -300px;
+    top: -500px;
     right: 270px;
     z-index: 6;
 }
@@ -158,33 +178,33 @@ ul{
 .Quote-container{
     position: relative;
     width: 1200px;
-    height: 400px;
+    height: 300px;
 }
 blockquote{
-    background-color: #020230;
+    background-color: rgb(32,42,68);
     position: relative;
-    top: -900px;
+    bottom: 1150px;
     right: -60px;
     width: 1109px;
-    height: 589.56px;
+    height: 545px;
     text-align: center;
     border-radius: 20px;
     z-index: 5;
 
 }
 .Curve-two{
-    position: relative;
-    top: 200px;
-    left: -80px;
+    position: relative; 
+    top: 170px;
+    left: -60px;
 }
 .Note1{
     width: 299px;
     height: 56px;
-    font-size: 46px;
+    font-size: 48px;
     z-index: 4;
     position: relative;
-    right: -620px;
-    bottom: -50px;
+    right: -580px;
+    bottom: 10px;
     border: 5px;
     text-align: center;
     color: white;
@@ -196,8 +216,8 @@ blockquote{
     z-index: 4;
     line-height: 1.5em;
     position: relative;
-    right: -590px;
-    bottom: -50px;
+    right: -580px;
+    bottom: 10px;
     border: 5px;
     text-align: justify;
     color: white;
@@ -205,26 +225,30 @@ blockquote{
 
 figcaption{
     position: relative;
-    right: -150px;
-    bottom: -70px;
+    right: -95px;
+    bottom: 0px;
     color: white;
     text-transform: uppercase;
+}
+#Note3{
+    position: relative;
+    right: 30px;
 }
 
 .Footer{
     position: relative;
-    background-color: #FFFFD5;
-    bottom: 200px;
+    background-color: rgb(228, 228, 212);
+    bottom: 600px;
     width: 1440px;
     right: 68px;
-    height: 400px;
+    height: 500px;
 }
 .Footer-ul{
     width: 960px;
     display: flex;
     position: relative;
     right: -150px;
-    top: 50px;
+    top: 280px;
     align-items: center;
     padding: 5em;
     z-index: 1;
@@ -302,7 +326,7 @@ right: -700px;
     height: 19px;
     right: -40px;
     }
-    h1{
+    #Header{
         width: 343px;
         height: 89px;
         font-size: 38px;
@@ -570,7 +594,7 @@ main{
     right: -320px;
     z-index: 2;
 }
-h1{
+#Header{
     width: 635px;
     height: 156px;
     font-size: 56px;
