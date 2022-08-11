@@ -279,16 +279,11 @@ figcaption{
 }
 #facebook-logo{
 position: relative;
+right: -700px;
 padding: 1em;
 cursor: pointer;
 }
 
-.Icon_box{
-position: relative;
-width: 52px;
-height: 52px;
-right: -700px;
-}
 
 #twitter-logo{
 position: relative;
