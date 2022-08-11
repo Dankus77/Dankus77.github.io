@@ -289,14 +289,13 @@ right: -700px;
 
     html{
         margin-top: -100px;
-        margin-left: -20px;
+        margin-left: -70px;
     }
     main{
         max-height: 100%;
-        
     }
     body{
-        max-width: 450px;
+        width: 450px;
         background-color: #FAF8F6;
         max-height: 100%;
     }
@@ -325,14 +324,14 @@ right: -700px;
     .Curve1{
         position: relative;
         top: 170px;
-        left: 170px;
+        left: 80px;
         z-index: 2;
     }
     .Curve-one{
     position: relative;
     width: 151.47px;
     height: 19px;
-    right: -40px;
+    right: -125px;
     }
     #Header{
         width: 343px;
@@ -381,14 +380,14 @@ right: -700px;
         text-transform: uppercase;
     }
     nav{
-        width: 350px;
+        width: 390px;
         position: relative;
-        left: 40px;
+        left: 60px;
         top: 120px;
     }
     .Access1{
         position: relative;
-        right: -160px;
+        right: -200px;
         top: -15px;
         width: 256px;
         height: 61px;
@@ -425,8 +424,11 @@ right: -700px;
         line-height: 1.2em;
     }
     .Section-one{
+        position: relative;
+        right: -30px;
         text-align: justify;
         width: 350px;
+        
     }
     .Access2{
         width: 219px;
@@ -477,7 +479,7 @@ right: -700px;
         background-color: rgb(32,42,68);
         position: relative;
         top: -380px;
-        left: 10px;
+        left: 30px;
         width: 375px;
         height: 748px;
         text-align: center;
@@ -537,9 +539,9 @@ right: -700px;
     .Footer{
         background-color: rgb(228, 228, 212);
         position: relative;
-        right: -10px;
+        right: -40px;
         bottom: -170px;
-        width: 450px;
+        width: 420px;
         height: 250px;
     }
     .Footer-ul{
