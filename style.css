@@ -107,7 +107,7 @@ color: gray;
     border-radius: 5px;
 }
 .Button1:hover{
-    border-style: hidden;
+border-style: hidden;
 background-color: rgb(23,35,57);
 color: white;
 transition: 0.5s;
@@ -202,7 +202,7 @@ blockquote{
 .Curve-two{
     position: relative; 
     top: 170px;
-    left: -60px;
+    left: -40px;
 }
 .Note1{
     width: 299px;
@@ -231,10 +231,11 @@ blockquote{
 }
 
 figcaption{
+    font-family: Epilogue;
     letter-spacing: -0.18px;
     font-weight: bold;
     position: relative;
-    right: -95px;
+    right: -100px;
     bottom: 0px;
     color: white;
     text-transform: uppercase;
@@ -242,7 +243,8 @@ figcaption{
 #Note3{
     font-weight: lighter;
     position: relative;
-    right: 30px;
+    right: 20px;
+    letter-spacing: 2.5px;
 }
 
 .Footer{
@@ -278,12 +280,16 @@ figcaption{
 #facebook-logo{
 position: relative;
 padding: 1em;
-right: -700px;
 cursor: pointer;
 }
-.icon_link:hover{
-    background-color: transparent;
+
+.Icon_box{
+position: relative;
+width: 52px;
+height: 52px;
+right: -700px;
 }
+
 #twitter-logo{
 position: relative;
 padding: 1em;
