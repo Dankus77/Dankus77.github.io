@@ -108,8 +108,9 @@ color: gray;
 }
 .Button1:hover{
     border-style: hidden;
-background-color: #020230;
+background-color: rgb(23,35,57);
 color: white;
+transition: 0.5s;
 }
 .Button2{
     font-family: Epilogue;
@@ -128,6 +129,8 @@ color: white;
     border-style: hidden;
     cursor: pointer;
     background: linear-gradient(165deg, rgb(251,100,209), rgb(160,96,255), rgb(255,163,78));
+    transition: all;
+    transition: 0.5s;
 }
 .Hero-text{
     color: gray;
@@ -228,6 +231,8 @@ blockquote{
 }
 
 figcaption{
+    letter-spacing: -0.18px;
+    font-weight: bold;
     position: relative;
     right: -95px;
     bottom: 0px;
@@ -235,6 +240,7 @@ figcaption{
     text-transform: uppercase;
 }
 #Note3{
+    font-weight: lighter;
     position: relative;
     right: 30px;
 }
@@ -243,7 +249,7 @@ figcaption{
     position: relative;
     background-color: rgb(228, 228, 212);
     bottom: 210px;
-    width: 1440px;
+    width: 1380px;
     right: 68px;
     height: 500px;
 }
@@ -274,6 +280,9 @@ position: relative;
 padding: 1em;
 right: -700px;
 cursor: pointer;
+}
+.icon_link:hover{
+    background-color: transparent;
 }
 #twitter-logo{
 position: relative;
@@ -306,7 +315,7 @@ right: -700px;
     }
     .Logo{
         position: relative;
-        right: -10px;
+        right: -25px;
         top: 20px;
         width: 78.41px;
         height: 24.8px;
@@ -461,7 +470,7 @@ right: -700px;
         position: relative;
         width: 252px;
         height: 402px;
-        left: 100px;
+        left: 130px;
         top: 275px;
         z-index: 7;
     }
@@ -473,7 +482,6 @@ right: -700px;
         right: -90px;
         z-index: 6;
     }
-    
     
     blockquote{
         background-color: rgb(32,42,68);
@@ -596,6 +604,7 @@ right: -700px;
 html{
     margin-top: 0;
     max-height: 100%;
+    margin-left: -20px;
 }
 body{
     background-color: #FAF8F6;
@@ -611,16 +620,21 @@ main{
 }
 .Logo{
     position: relative;
-    right: -100px;
+    right: -45px;
     top: 30px;
     width: 78.41px;
     height: 24.8px;
     
 }
+nav{
+    width: 93%;
+    position: relative;
+    left: 20px;
+}
 .Hero-portrait{
     position: relative;
     top: -300px;
-    right: -200px;
+    right: -85px;
     z-index: 1;
     width: 281px;
     height: 482px;
@@ -631,7 +645,7 @@ main{
     height: 29px;
     position: relative;
     top: 110px;
-    right: -320px;
+    right: -230px;
     z-index: 2;
 }
 #Header{
@@ -640,7 +654,7 @@ main{
     font-size: 56px;
     position: relative;
     top: 150px;
-    right: -110px;
+    right: -10px;
     z-index: 3;
 }
 h2{
@@ -648,7 +662,7 @@ font-size: 48px;
 }
 #portrait-list{
     position: relative;
-    right: 180px;
+    right: 200px;
     top: -20px;
 }
 #companies{
@@ -677,23 +691,24 @@ text-transform: uppercase;
 }
 .Access1{
     position: relative;
-    right: -470px;
-    top: 10px;
+    right: -325px;
+    top: -10px;
     width: 256px;
     height: 61px;
 }
 .Button1{
+    font-weight: bold;
     border-radius: 5px;
     position: relative;
-    right: -110px;
+    right: -130px;
     width: 256px;
     height: 61px;
-    color: black;
+    color: rgb(23,35,57);
     background-color:white;
     cursor: pointer;
 }
 .Button1:hover{
-    background-color: #020230;
+    background-color: rgb(23,35,57);
     color: white;
 }
 .Button2{
@@ -701,7 +716,7 @@ text-transform: uppercase;
     width: 256px;
     height: 61px;
     color: white;
-    background-color: #020230;
+    background-color: rgb(23,35,57);
     cursor: pointer;
 }
 .Button2:hover{
@@ -713,13 +728,14 @@ text-transform: uppercase;
     height: 96px;
     position: relative;
     top: 100px;
-    right: -90px;
+    right: 7px;
     line-height: 2em;
 }
 
 .Section-one{
     position: relative;
-    width: 900px;
+    left: 50px;
+    width: 700px;
     text-align: justify;
 }
 .Access2{
@@ -730,11 +746,11 @@ text-transform: uppercase;
     position: relative;
     font-size: 16px;
     top: -350px;
-    right: -133px;
+    right: -35px;
 }
 aside{
     position: relative;
-    left: 60px;
+    left: 50px;
     bottom: 300px;
     width: 50%;
     margin: auto;
@@ -748,32 +764,32 @@ ul{
 }
 .Quote-container{
     position: relative;
-    width: 900px;
+    left: 4px;
+    width: 750px;
     height: 200px;
 }
 .Jeremy-image{
     position: relative;
     width: 252px;
     height: 402px;
-    left: 325px;
-    top: -355px;
+    left: 270px;
+    top: -290px;
     z-index: 7;
 }
 .Pattern-blur{
     position: relative;
-    width: 417px;
-    height: 417px;
-    top: -270px;
-    right: 0;
+    width: 400px;
+    height: 400px;
+    top: -230px;
+    right: 90px;
     z-index: 6;
 }
-
 
 blockquote{
     background-color: rgb(32,42,68);
     position: relative;
-    top: -600px;
-    right: -70px;
+    top: -530px;
+    right: -5px;
     width: 689px;
     height: 684px;
     text-align: center;
@@ -797,39 +813,53 @@ blockquote{
     color: white;
 }
 .Note2{
-    height: 96px;
-    width: 573px;
+    text-align: center;
+    letter-spacing: 0.09px;
+    height: 100px;
+    width: 653px;
     font-size: 18px;
     z-index: 4;
     line-height: 2em;
     position: relative;
     bottom: -245px;
-    right: -130px;
+    right: -10px;
     color: white;
 }
 
 figcaption{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -0.18px;
     position: relative;
-    bottom: -320px;
-    right: -3px;
+    bottom: -270px;
+    right: 15px;
     color: white;
     text-transform: uppercase;
+}
+#Note3{
+    position: relative;
+    left: 2px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 2.5px;
 }
 .Footer{
     background-color: rgb(228, 228, 212);
     position: relative;
-    left: 0px;
+    left: 8px;
     bottom: -150px;
-    width: 915px;
+    width: 770px;
     height: 400px;
     
 }
 .Footer-ul{
-    width: 760px;
+    width: 530px;
+    height: 10%;
     display: flex;
     position: relative;
     top: 200px;
-    right: 100px;
+    right: -40px;
     align-items: center;
     padding: 5em;
     z-index: 1;
@@ -837,28 +867,28 @@ figcaption{
 
 .Footer-logo{
     position: relative;
-    left: 120px;
+    left: -80px;
 }
 .Copyright{
     width: 125px;
     position: relative;
-    left: 340px;
+    left: 110px;
 }
 #facebook-logo{
 position: relative;
 padding: 1em;
-right: -470px;
+right: -270px;
 cursor: pointer;
 }
 #twitter-logo{
 position: relative;
 padding: 1em;
-right: -470px;
+right: -270px;
 }
 #instagram-logo{
 position: relative;
 padding: 1em;
-right: -470px;
+right: -270px;
 }
 
 }
