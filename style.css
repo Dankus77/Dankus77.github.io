@@ -295,28 +295,42 @@ position: relative;
 padding: 1em;
 right: -700px;
 }
-@media screen and (max-width: 450px) { 
+@media screen and (min-width: 320px) and (max-width: 450px) { 
 
     html{
+        width: fit-content;
+        height: fit-content;
         margin-top: -100px;
-        margin-left: -70px;
+        margin-left: 0px;
+        overflow-x: ;
+        padding: 0;
+        box-sizing: border-box;
+        display: block;
     }
     main{
+        display: block;
+        position: relative;
+        right: 0px;
         max-height: 100%;
+        height: fit-content;
     }
     body{
+        display: block;
+        position: relative;
+        right: 10px;
         width: 450px;
         background-color: #FAF8F6;
-        max-height: 100%;
+        height: fit-content;
+        padding: 0;
     }
     .Main-container{
         font-family: Epilogue;
         width: 100%;
-        max-height: 100%;
+        max-height:fit-content;
     }
     .Logo{
         position: relative;
-        right: -25px;
+        right: -10px;
         top: 20px;
         width: 78.41px;
         height: 24.8px;
@@ -324,8 +338,8 @@ right: -700px;
     }
     .Hero-portrait{
         position: relative;
-        top: 150px;
-        left: 50px;
+        top: 180px;
+        left: 40px;
         z-index: 1;
         width: 343px;
         height: 240px;
@@ -334,7 +348,7 @@ right: -700px;
     .Curve1{
         position: relative;
         top: 170px;
-        left: 80px;
+        left: 10px;
         z-index: 2;
     }
     .Curve-one{
@@ -344,12 +358,12 @@ right: -700px;
     right: -125px;
     }
     #Header{
-        width: 343px;
+        width: 320px;
         height: 89px;
-        font-size: 38px;
+        font-size: 35px;
         position: relative;
         top: 180px;
-        left: 50px;
+        left: 40px;
         z-index: 3;
     }
     h2{
@@ -390,14 +404,14 @@ right: -700px;
         text-transform: uppercase;
     }
     nav{
-        width: 390px;
+        width: 340px;
         position: relative;
-        left: 60px;
+        left: 30px;
         top: 120px;
     }
     .Access1{
         position: relative;
-        right: -200px;
+        right: -150px;
         top: -15px;
         width: 256px;
         height: 61px;
@@ -414,11 +428,11 @@ right: -700px;
     }
     
     .Button2{
-        font-size: 14px;
+        font-size: 18px;
         font-weight: bold;
         position: relative;
-        width: 182px;
-        height: 48px;
+        width: 256px;
+        height: 61px;
         bottom: 0px;
         right: 0px;
         color: white;
@@ -427,28 +441,29 @@ right: -700px;
     }
     
     .Hero-text{
+        width: 343px;
         font-size: 16px;
         position: relative;
         top: 160px;
-        left: 32px;
-        line-height: 1.2em;
+        left: 20px;
+        line-height: 1.5em;
     }
     .Section-one{
         position: relative;
-        right: -30px;
+        left: 0px;
         text-align: justify;
-        width: 350px;
+        width: 320px;
         
     }
     .Access2{
-        width: 219px;
-        height: 56px;
+        width: 256px;
+        height: 61px;
         margin: 25px 20px;
         padding: 10px;
         position: relative;
-        top: 120px;
+        top: 150px;
         font-size: 16px;
-        right: -22px;
+        right: -10px;
     }
     aside{
         position: relative;
@@ -464,23 +479,25 @@ right: -700px;
         top: -350px;
     }
     .Quote-container{
+        position: relative;
+        right: 10px;
         height: 929px;
-        width: 390px;
+        width: 310px;
     }
     .Jeremy-image{
         position: relative;
         width: 252px;
-        height: 402px;
-        left: 130px;
+        height: 400px;
+        left: 110px;
         top: 275px;
         z-index: 7;
     }
     .Pattern-blur{
         position: relative;
-        width: 307px;
+        width: 250px;
         height: 400px;
         top: -60px;
-        right: -90px;
+        right: -110px;
         z-index: 6;
     }
     
@@ -488,7 +505,7 @@ right: -700px;
         background-color: rgb(32,42,68);
         position: relative;
         top: -380px;
-        left: 30px;
+        right: 10px;
         width: 375px;
         height: 748px;
         text-align: center;
@@ -508,20 +525,20 @@ right: -700px;
         z-index: 4;
         position: relative;
         bottom: -245px;
-        left: 33px;
+        left: 40px;
         color: white;
     }
     .Note2{
         text-align: center;
-        width: 343px;
+        width: 300px;
         height: 160px;
-        font-size: 18px;
+        font-size: 16px;
         z-index: 4;
         line-height: 1.8em;
         letter-spacing: 0.09px;
         position: relative;
         bottom: -250px;
-        left: 13px;
+        left: 40px;
         color: white;
     }
     
@@ -532,7 +549,7 @@ right: -700px;
         text-align: center;
         position: relative;
         bottom: -280px;
-        right: 10px;
+        right: 0px;
         color: white;
         text-transform: uppercase;
     }
@@ -541,16 +558,16 @@ right: -700px;
         letter-spacing: 2.5px;
         font-weight: lighter;
         position: relative;
-        left: 90px;
+        left: 100px;
         text-align: center;
         width: 50%;
     }
     .Footer{
         background-color: rgb(228, 228, 212);
         position: relative;
-        right: -40px;
+        right: 5px;
         bottom: -170px;
-        width: 430px;
+        width: 410px;
         height: 250px;
     }
     .Footer-ul{
@@ -559,7 +576,7 @@ right: -700px;
         height: 150px;
         position: relative;
         top: 80px;
-        left: 60px;
+        left: 20px;
         padding: 0;
         z-index: 1;
     }
