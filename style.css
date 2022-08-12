@@ -565,9 +565,9 @@ right: -700px;
     .Footer{
         background-color: rgb(228, 228, 212);
         position: relative;
-        right: 5px;
+        right: 18px;
         bottom: -170px;
-        width: 420px;
+        width: 445px;
         height: 250px;
     }
     .Footer-ul{
@@ -576,7 +576,7 @@ right: -700px;
         height: 150px;
         position: relative;
         top: 80px;
-        left: 20px;
+        left: 50px;
         padding: 0;
         z-index: 1;
     }
