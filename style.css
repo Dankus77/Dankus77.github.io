@@ -358,6 +358,7 @@ right: -700px;
     right: -125px;
     }
     #Header{
+        font-family: Epilogue;
         width: 343px;
         height: 89px;
         font-size: 38px;
@@ -442,7 +443,7 @@ right: -700px;
     
     .Hero-text{
         width: 343px;
-        font-size: 16px;
+        font-size: 18px;
         position: relative;
         top: 160px;
         left: 20px;
