@@ -21,6 +21,7 @@ body{
     height: 1800px;
 }
 .Logo{
+    cursor: pointer;
     color: rgb(23,35,57);
     position: relative;
     right: -110px;
