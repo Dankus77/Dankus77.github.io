@@ -340,7 +340,7 @@ cursor: pointer;
     }
     .Hero-portrait{
         position: relative;
-        top: 180px;
+        top: 280px;
         left: 40px;
         z-index: 1;
         width: 343px;
@@ -349,8 +349,8 @@ cursor: pointer;
     
     .Curve1{
         position: relative;
-        top: 170px;
-        left: 10px;
+        top: 230px;
+        left: 60px;
         z-index: 2;
     }
     .Curve-one{
@@ -365,7 +365,7 @@ cursor: pointer;
         height: 89px;
         font-size: 38px;
         position: relative;
-        top: 180px;
+        top: 240px;
         left: 40px;
         z-index: 3;
     }
@@ -447,7 +447,7 @@ cursor: pointer;
         width: 343px;
         font-size: 18px;
         position: relative;
-        top: 160px;
+        top: 240px;
         left: 20px;
         line-height: 1.5em;
     }
@@ -464,13 +464,13 @@ cursor: pointer;
         margin: 25px 20px;
         padding: 10px;
         position: relative;
-        top: 150px;
+        top: 250px;
         font-size: 16px;
         right: -10px;
     }
     aside{
         position: relative;
-        top: 280px;
+        top: 430px;
         left: 20px;
         width: 10%;
         margin: auto;
@@ -491,15 +491,15 @@ cursor: pointer;
         position: relative;
         width: 252px;
         height: 400px;
-        left: 110px;
-        top: 275px;
+        left: 95px;
+        top: 440px;
         z-index: 7;
     }
     .Pattern-blur{
         position: relative;
         width: 250px;
         height: 400px;
-        top: -60px;
+        top: 80px;
         right: -110px;
         z-index: 6;
     }
@@ -507,7 +507,7 @@ cursor: pointer;
     blockquote{
         background-color: rgb(32,42,68);
         position: relative;
-        top: -380px;
+        top: -200px;
         right: 10px;
         width: 375px;
         height: 748px;
@@ -568,25 +568,26 @@ cursor: pointer;
     .Footer{
         background-color: rgb(228, 228, 212);
         position: relative;
-        right: 18px;
+        right: 5px;
         bottom: -170px;
         width: 445px;
-        height: 250px;
+        height: 550px;
     }
     .Footer-ul{
         display: flex;
         width: 125px;
         height: 150px;
         position: relative;
-        top: 80px;
-        left: 50px;
+        top: 340px;
+        left: 20px;
         padding: 0;
         z-index: 1;
     }
     
     .Footer-logo{
         position: relative;
-        top: -50px;
+        padding: 1em;
+        top: -70px;
         width: 81px;
         height: 32px;
         font-size: 32px;
@@ -594,29 +595,30 @@ cursor: pointer;
     }
     .Copyright{
         width: 100px;
+        padding: 1em;
         position: relative;
         bottom: 0;
-        left: 50px;
+        left: 10px;
         font-size: 15px;
     }
     #facebook-logo{
     position: relative;
     padding: 1.3em;
-    bottom: -40px;
-    left: -80px;
+    bottom: -60px;
+    left: -140px;
     cursor: pointer;
     }
     #twitter-logo{
     position: relative;
-    bottom: -40px;
+    bottom: -60px;
     padding: 1.3em;
-    left: -80px;
+    left: -140px;
     }
     #instagram-logo{
     position: relative;
-    bottom: -40px;
+    bottom: -60px;
     padding: 1.3em;
-    left: -80px;
+    left: -140px;
     }  
 }
 /* TABLET */
